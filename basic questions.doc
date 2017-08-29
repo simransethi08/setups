@@ -1,0 +1,51 @@
+﻿Program 1:
+
+Write a Fizz-Buzz program. Iterate through 1 to 100 numbers and print each of them. But if number can be divided by 3, you need to print 'Fizz'. If it can be divided by 'Buzz', you need to print 5. If it can be divided by both 3 and 5, print 'FizzBuzz'.
+
+Think about how effectively you can write a program.
+
+
+Program 2:
+
+Write a function that sorts the keys in a hash by the length of the key as a string. For instance, the hash:
+
+{ abc: 'hello', 'another_key' => 123, 4567 => 'third' }
+
+should result in:
+
+["abc", "4567", "another_key"]
+
+
+Program 3: 
+
+Write a function which takes the family tree (in the form of hash) as input and display the output as given in the data below:
+
+family_tree = {
+	'parent1' => 'child1',
+	'parent2' => ['child1', 'child2' => ['grandchild2']],
+	'parent3' => ['child1']
+}
+
+Output:
+
+parent1
+	child1
+parent2
+	child1
+	child2
+		grandchild2
+parent3
+	child1
+
+
+Test data: 
+
+family_tree = {
+	'parent1' => 'child1',
+	'parent2' => ['child1', 'child2' => ['grandchild2']],
+	'parent3' => {
+		'child1' => ['grandchild1', 'grandchild2'], 
+		'child2' => ['grandchild1' => 'child']
+	}
+}
+
